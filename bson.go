@@ -13,10 +13,10 @@
 
 package qmgo
 
-import "go.mongodb.org/mongo-driver/bson"
+import "github.com/hongyuyang/mongo-go-driver/bson"
 
 // alias mongo drive bson primitives
-// thus user don't need to import go.mongodb.org/mongo-driver/mongo, it's all in qmgo
+// thus user don't need to import github.com/hongyuyang/mongo-go-driver/mongo, it's all in qmgo
 type (
 	// M is an alias of bson.M
 	M = bson.M

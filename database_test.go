@@ -15,13 +15,13 @@ package qmgo
 
 import (
 	"context"
-	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
+	"github.com/hongyuyang/mongo-go-driver/mongo/options"
+	"github.com/hongyuyang/mongo-go-driver/mongo/readpref"
 	"testing"
 
+	"github.com/hongyuyang/mongo-go-driver/bson"
 	opts "github.com/qiniu/qmgo/options"
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/bson"
 )
 
 func TestDatabase(t *testing.T) {

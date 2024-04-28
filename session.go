@@ -16,10 +16,10 @@ package qmgo
 import (
 	"context"
 
+	"github.com/hongyuyang/mongo-go-driver/mongo"
+	"github.com/hongyuyang/mongo-go-driver/mongo/options"
+	"github.com/hongyuyang/mongo-go-driver/x/mongo/driver"
 	opts "github.com/qiniu/qmgo/options"
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/x/mongo/driver"
 )
 
 // Session is an struct that represents a MongoDB logical session

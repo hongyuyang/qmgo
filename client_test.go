@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/hongyuyang/mongo-go-driver/bson"
+	officialOpts "github.com/hongyuyang/mongo-go-driver/mongo/options"
+	"github.com/hongyuyang/mongo-go-driver/mongo/readpref"
 	"github.com/qiniu/qmgo/options"
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/bson"
-	officialOpts "go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
 )
 
 func initClient(col string) *QmgoClient {

@@ -16,7 +16,7 @@ package field
 import (
 	"time"
 
-	"go.mongodb.org/mongo-driver/bson/primitive"
+	"github.com/hongyuyang/mongo-go-driver/bson/primitive"
 )
 
 // DefaultFieldHook defines the interface to change default fields by hook

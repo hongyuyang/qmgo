@@ -2,7 +2,7 @@ package qmgo
 
 import (
 	"context"
-	"go.mongodb.org/mongo-driver/bson"
+	"github.com/hongyuyang/mongo-go-driver/bson"
 	"testing"
 	"time"
 

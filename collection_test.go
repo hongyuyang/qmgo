@@ -17,11 +17,11 @@ import (
 	"context"
 	"testing"
 
+	"github.com/hongyuyang/mongo-go-driver/bson"
+	"github.com/hongyuyang/mongo-go-driver/bson/primitive"
+	"github.com/hongyuyang/mongo-go-driver/mongo"
+	officialOpts "github.com/hongyuyang/mongo-go-driver/mongo/options"
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/bson/primitive"
-	"go.mongodb.org/mongo-driver/mongo"
-	officialOpts "go.mongodb.org/mongo-driver/mongo/options"
 
 	"github.com/qiniu/qmgo/operator"
 	"github.com/qiniu/qmgo/options"

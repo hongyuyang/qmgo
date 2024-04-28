@@ -13,7 +13,7 @@
 
 package qmgo
 
-import "go.mongodb.org/mongo-driver/mongo/options"
+import "github.com/hongyuyang/mongo-go-driver/mongo/options"
 
 // CollectionI
 // 集合操作接口

@@ -17,7 +17,7 @@ import (
 	"errors"
 	"strings"
 
-	"go.mongodb.org/mongo-driver/mongo"
+	"github.com/hongyuyang/mongo-go-driver/mongo"
 )
 
 var (

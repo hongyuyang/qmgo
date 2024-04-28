@@ -17,8 +17,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/hongyuyang/mongo-go-driver/bson/primitive"
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
 func TestDefaultField(t *testing.T) {

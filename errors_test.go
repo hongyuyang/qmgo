@@ -15,8 +15,8 @@ package qmgo
 
 import (
 	"errors"
+	"github.com/hongyuyang/mongo-go-driver/mongo"
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/mongo"
 	"testing"
 )
 

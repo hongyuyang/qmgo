@@ -16,10 +16,10 @@ package qmgo
 import (
 	"context"
 
+	"github.com/hongyuyang/mongo-go-driver/bson/bsoncodec"
+	"github.com/hongyuyang/mongo-go-driver/mongo"
+	officialOpts "github.com/hongyuyang/mongo-go-driver/mongo/options"
 	"github.com/qiniu/qmgo/options"
-	"go.mongodb.org/mongo-driver/bson/bsoncodec"
-	"go.mongodb.org/mongo-driver/mongo"
-	officialOpts "go.mongodb.org/mongo-driver/mongo/options"
 )
 
 // Database is a handle to a MongoDB database

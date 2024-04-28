@@ -16,7 +16,7 @@ package qmgo
 import (
 	"context"
 
-	"go.mongodb.org/mongo-driver/mongo"
+	"github.com/hongyuyang/mongo-go-driver/mongo"
 )
 
 // Cursor struct define

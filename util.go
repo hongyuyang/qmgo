@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"go.mongodb.org/mongo-driver/bson/primitive"
+	"github.com/hongyuyang/mongo-go-driver/bson/primitive"
 )
 
 // Now return Millisecond current time

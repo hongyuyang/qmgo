@@ -19,13 +19,13 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/hongyuyang/mongo-go-driver/bson"
+	"github.com/hongyuyang/mongo-go-driver/bson/bsoncodec"
+	"github.com/hongyuyang/mongo-go-driver/mongo"
+	"github.com/hongyuyang/mongo-go-driver/mongo/options"
 	"github.com/qiniu/qmgo/middleware"
 	"github.com/qiniu/qmgo/operator"
 	opts "github.com/qiniu/qmgo/options"
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/bson/bsoncodec"
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
 // Collection is a handle to a MongoDB collection
