@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/hongyuyang/mongo-go-driver/bson"
-	opts "github.com/qiniu/qmgo/options"
+	opts "github.com/hongyuyang/qmgo/options"
 	"github.com/stretchr/testify/require"
 )
 

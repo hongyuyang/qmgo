@@ -17,7 +17,7 @@ import (
 	"context"
 	"errors"
 	"github.com/hongyuyang/mongo-go-driver/mongo/options"
-	opts "github.com/qiniu/qmgo/options"
+	opts "github.com/hongyuyang/qmgo/options"
 	"testing"
 
 	"github.com/hongyuyang/mongo-go-driver/bson"

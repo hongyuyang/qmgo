@@ -21,7 +21,7 @@ import (
 
 	"github.com/hongyuyang/mongo-go-driver/bson"
 	"github.com/hongyuyang/mongo-go-driver/bson/primitive"
-	"github.com/qiniu/qmgo/field"
+	"github.com/hongyuyang/qmgo/field"
 	"github.com/stretchr/testify/require"
 )
 

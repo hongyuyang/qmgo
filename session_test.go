@@ -22,7 +22,7 @@ import (
 	"github.com/hongyuyang/mongo-go-driver/bson"
 	"github.com/hongyuyang/mongo-go-driver/mongo/options"
 	"github.com/hongyuyang/mongo-go-driver/mongo/readpref"
-	opts "github.com/qiniu/qmgo/options"
+	opts "github.com/hongyuyang/qmgo/options"
 	"github.com/stretchr/testify/require"
 )
 

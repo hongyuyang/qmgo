@@ -23,9 +23,9 @@ import (
 	"github.com/hongyuyang/mongo-go-driver/bson/bsoncodec"
 	"github.com/hongyuyang/mongo-go-driver/mongo"
 	"github.com/hongyuyang/mongo-go-driver/mongo/options"
-	"github.com/qiniu/qmgo/middleware"
-	"github.com/qiniu/qmgo/operator"
-	opts "github.com/qiniu/qmgo/options"
+	"github.com/hongyuyang/qmgo/middleware"
+	"github.com/hongyuyang/qmgo/operator"
+	opts "github.com/hongyuyang/qmgo/options"
 )
 
 // Collection is a handle to a MongoDB collection

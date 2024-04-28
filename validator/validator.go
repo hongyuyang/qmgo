@@ -2,11 +2,10 @@ package validator
 
 import (
 	"context"
+	"github.com/go-playground/validator/v10"
+	"github.com/hongyuyang/qmgo/operator"
 	"reflect"
 	"time"
-
-	"github.com/go-playground/validator/v10"
-	"github.com/qiniu/qmgo/operator"
 )
 
 // use a single instance of Validate, it caches struct info

@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/hongyuyang/mongo-go-driver/bson/primitive"
-	"github.com/qiniu/qmgo/operator"
+	"github.com/hongyuyang/qmgo/operator"
 	"github.com/stretchr/testify/require"
 )
 

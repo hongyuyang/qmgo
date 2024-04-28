@@ -23,8 +23,8 @@ import (
 	officialOpts "github.com/hongyuyang/mongo-go-driver/mongo/options"
 	"github.com/stretchr/testify/require"
 
-	"github.com/qiniu/qmgo/operator"
-	"github.com/qiniu/qmgo/options"
+	"github.com/hongyuyang/qmgo/operator"
+	"github.com/hongyuyang/qmgo/options"
 )
 
 func TestCollection_EnsureIndex(t *testing.T) {

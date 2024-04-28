@@ -19,7 +19,7 @@ import (
 	"github.com/hongyuyang/mongo-go-driver/bson/bsoncodec"
 	"github.com/hongyuyang/mongo-go-driver/mongo"
 	officialOpts "github.com/hongyuyang/mongo-go-driver/mongo/options"
-	"github.com/qiniu/qmgo/options"
+	"github.com/hongyuyang/qmgo/options"
 )
 
 // Database is a handle to a MongoDB database
